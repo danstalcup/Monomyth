@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Impl\Story.cs" />
     <Compile Include="Impl\StoryGenerator.cs" />
+    <Compile Include="IStory.cs" />
     <Compile Include="IStoryGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

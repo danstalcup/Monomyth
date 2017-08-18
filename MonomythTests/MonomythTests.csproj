@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="StoryGeneratorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

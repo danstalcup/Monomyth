@@ -8,9 +8,14 @@ namespace Monomyth.Impl
 {
     public class StoryGenerator : IStoryGenerator
     {
+        public Story Story { get; set; }
+
         public string GenerateStory()
         {
-            throw new NotImplementedException();
+            Story = new Story();
+            Story.Assemble();
+
+            return Story.GetFull;
         }
     }
 }
